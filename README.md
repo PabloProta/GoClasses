@@ -1,12 +1,18 @@
-## Some Tips:
- **:heavy_plus_sign: CREATE MODULE:** <code>go mod init \<name> </code><br><br>
- **:runner:RUN CODE:** <code>go run \<folder></code> or just <code>go mod run</code> if you already in the folder.
- 
- Remember to define the package in your go file (it end with <code>.go</code>) its ever needed to define main package like:
-<pre>package main</pre>
+# Create a Go Module
 
-## Imports
-You can check the packages to import [here](https://pkg.go.dev/search?q=quote)
-<br><br>
-**:warning: Some observations: In Go isn't needed to finish syntax of yours declarations with <code>;</code> :warning:**
+This tutorial's sequence includes seven brief topics that each illustrate a different part of the language.
+
+- Create a module -- Write a small module with functions you can call from another module.
+
+- Call your code from another module -- Import and use your new module.
+
+- Return and handle an error -- Add simple error handling.
+
+- Return a random greeting -- Handle data in slices (Go's dynamically-sized arrays).
+
+- Return greetings for multiple people -- Store key/value pairs in a map.
+
+- Add a test -- Use Go's built-in unit testing features to test your code.
+
+- Compile and install the application -- Compile and install your code locally.
   
