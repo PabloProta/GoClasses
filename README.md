@@ -5,5 +5,8 @@
  Remember to define the package in your go file (it end with <code>.go</code>) its ever needed to define main package like:
 <pre>package main</pre>
 
+## Imports
+You can check the packages to import [here](https://pkg.go.dev/search?q=quote)
+<br><br>
 **:warning: Some observations: In Go isn't needed to finish syntax of yours declarations with <code>;</code> :warning:**
   
