@@ -44,3 +44,7 @@ To initialize a map :
 
 # Null values
   For null values you put <code>nil</code> instead null
+
+# Test
+  If you want improve tests you may need to create a teste file.  In my case i put <code>greetings_test.go</code> the <code>_test.go</code> tells to the <code>go test</code>command that this file contains test functions.
+  <br>Test function names have the form <code><b>Test</b>Name</code>, where <i>Name</i> says something about the specific test.  Also test functions take a pointer to the testing package's testing.T [type](https://pkg.go.dev/testing/#T) as a parameter.  You use this parameter's methods for reporting and logging from your test.
